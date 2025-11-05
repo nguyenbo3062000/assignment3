@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Assignment02</title>
+  </head>
+
+  <body class="container">
+    <div class="product-info">
+      <div class="name">
+        <p class="sloganup">Nguyễn Văn Bộ</p>
+        <p class="slogan">The power of dreams</p>
+      </div>
+      <img class="anhcanhan" src="anhcanhan.png" alt="anhcanhan" />
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-content">
+        <i class="icon-user"></i>
+        <a href="#">Thông tin</a>
+      </div>
+      <div class="nav-content">
+        <i class="icon-doc-text-inv"></i>
+        <a href="#">Lý lịch</a>
+      </div>
+      <div class="nav-slogan">
+        Nguyễn Văn Bộ<br />
+        The power of dreams
+      </div>
+      <div class="nav-content">
+        <i class="icon-mail-alt"></i>
+        <a href="#">Chứng chỉ</a>
+      </div>
+      <div class="nav-content">
+        <i class="icon-star-1"></i>
+        <a href="#">Dự án</a>
+      </div>
+    </nav>
+    <div class="thongtin1">
+      <div class="muctieunghenghiep">
+        <h4>Mục tiêu nghề nghiệp</h4>
+        <p>
+          Sau khi tốt nghiệp trường cao đẳng sửa chữa ô tô, với niềm đam mê ô tô
+          vốn có <br />nên mình đã quyết định tham gia khóa học CCDK
+          Automotive,<br />
+          với mong muốn trau dồi thêm kiến thức về thiết kế phần mềm ô tô.
+        </p>
+      </div>
+      <div class="thongtincanhan">
+        <h4 class="thongtincanhantitle">Thông tin cá nhân</h4>
+        <form class="checkemail">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            size="30px"
+            placeholder="Enter email"
+            required
+          /><br />
+          <p class="message">Hãy nhập email để xác thực</p>
+          <input type="button" value="Submit" class="btnsubmit" />
+        </form>
+        <div class="hienthithongtin hidden">
+          <p>Ngày sinh:30/06/2000</p>
+          <p>Giới tính:Nam</p>
+          <p>Điện thoại:07074935166</p>
+          <p>Email:nguyenbo3062000@gmail.com</p>
+          <p>Địa chỉ:Tỉnh Aichi thành phố Nagoya</p>
+          <p>Website:www://toituhoc.tech</p>
+        </div>
+      </div>
+    </div>
+    <div class="thongtin2">
+      <!-- kinh nghiệm -->
+      <div class="kinhnghiem">
+        <div class="read-more">
+          <div class="title">
+            <h5>Kinh nghiệm</h5>
+            <i class="ic-toolbox"></i>
+          </div>
+          <button class="btn-warning view-more">&#x25BC; View more</button>
+        </div>
+        <div class="section-content hide">
+          <p>Đang làm việc tại công ty Honda mobility</p>
+        </div>
+      </div>
+      <!-- học vấn -->
+      <div class="hocvan">
+        <div class="read-more">
+          <div class="title">
+            <h5>Học vấn</h5>
+            <i class="ic-pencil"></i>
+          </div>
+          <button class="btn-warning view-more">&#x25BC; View more</button>
+        </div>
+        <div>
+          <div class="section-content hide">
+            <ul>
+              <li>
+                <p>Trường Nhật ngữ Umikaze</p>
+                <p>10/2018-04/2020</p>
+                <p>Chứng chỉ năng lực tiếng Nhật N3</p>
+              </li>
+              <li>
+                <p>Trường cao đẳng kỹ thuật HONDA KANSAI</p>
+                <p>04/2020 - 04/2024</p>
+                <p>Chứng chỉ thợ sửa chữa ô tô quốc gia cấp 1</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--hoạt động -->
+      <div class="hoatdong">
+        <div class="read-more">
+          <div class="title">
+            <h5>Hoạt động</h5>
+            <i class="ic-pencil"></i>
+          </div>
+          <button class="btn-warning view-more">&#x25BC; View more</button>
+        </div>
+        <div class="section-content hide">
+          <p>02/2022 - 04/2024</p>
+          <p>Trưởng ban câu lạc bộ câu cá Honda</p>
+        </div>
+      </div>
+      <!-- sở thích -->
+      <div class="sothich" class="parent">
+        <div class="read-more">
+          <div class="title">
+            <h5>Sở thích</h5>
+            <i class="ic-telescope"></i>
+          </div>
+          <button class="btn-warning view-more">&#x25BC; View more</button>
+        </div>
+        <div class="section-content hide">
+          <i class="fa fa-free-code-camp" id="free-code-camp"></i>
+          <p>Cắm trại</p>
+        </div>
+      </div>
+      <!-- ngôn ngữ -->
+      <div class="ngonngu" class="parent">
+        <div class="read-more">
+          <div class="title">
+            <h5>Ngôn ngữ</h5>
+            <i class="ic-mic"></i>
+          </div>
+          <button class="btn-warning view-more">&#x25BC; View more</button>
+        </div>
+        <div class="section-content hide">
+          <p>Japanese-N2</p>
+
+          <span class="mark1"></span>
+          <span class="mark1"></span>
+          <span class="mark2"></span>
+        </div>
+      </div>
+      <!-- kỹ năng -->
+      <div class="kynang">
+        <div class="read-more">
+          <div class="title">
+            <h5>Kỹ năng</h5>
+            <i class="ic-tools-2"></i>
+          </div>
+          <button class="btn-warning view-more">&#x25BC; View more</button>
+        </div>
+        <div>
+          <div class="section-content hide">
+            <p>Sữa chữa định kỳ ,đăng kiểm các loại ô tô từ 4-10 chỗ</p>
+
+            <span class="mark1"></span>
+            <span class="mark2"></span>
+            <span class="mark2"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chungchi">
+      <h4 class="titlechungnhan">Chứng nhận - Giải thưởng</h4>
+      <div class="bangcap">
+        <div class="japanese">
+          <img class="chungchi1" src="chungchi1.png" alt="japaneseN2" />
+          <div>Chứng chỉ năng lực tiếng Nhật N2</div>
+        </div>
+        <div class="mechanic">
+          <img class="chungchi2" src="chungchi2.png" alt="chungchi2" />
+          <div>Chứng chỉ thợ sửa chữa ô tô quốc gia cấp 1</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h4 class="titleduan">Dự án</h4>
+      <div class="project">
+        <div class="duan">
+          <img src="motaduan.png" alt="moptaduan" />
+          <div>Giới thiệu podcast Bàn về sự học</div>
+          <div class="duan-info">
+            <p class="year">2025</p>
+            <p><i class="icon-user-1"></i>Nguyễn Văn Bộ</p>
+
+            <p><i class="icon-lamp"></i>Deverloper</p>
+          </div>
+          <table style="width: auto">
+            <tr>
+              <td>Mô tả</td>
+              <td class="tdok">
+                -Giới thiệu về nhà hoạt động giáo dục Giản Tư Trung và<br />
+                podcast Bàn về sự học
+              </td>
+            </tr>
+            <tr>
+              <td>Nhiệm vụ</td>
+              <td class="tdok">
+                -Phân tích rõ khái niệm thực học và <br />giải đáp câu hỏi vì
+                sao học giỏi mà vẫn nghèo
+              </td>
+            </tr>
+            <tr>
+              <td>Công nghệ</td>
+              <td class="tdok">-Html,Css</td>
+            </tr>
+          </table>
+        </div>
+        <div class="duan1">
+          <img src="cvcanhan1.png" alt="cvcanhan1" />
+          <div>Cv cá nhân 1</div>
+          <div class="duan1-info">
+            <p class="year">2025</p>
+            <p><i class="icon-user-1"></i>Nguyễn Văn Bộ</p>
+
+            <p><i class="icon-lamp"></i>Deverloper</p>
+          </div>
+          <table style="width: auto">
+            <tr>
+              <td>Mô tả</td>
+              <td class="tdok">
+                -Trang Web cv cá nhân .Gồm các thông tin cá nhân cung như các kỹ
+                năng nghề nghiệp
+              </td>
+            </tr>
+            <tr>
+              <td>Nhiệm vụ</td>
+              <td class="tdok">
+                -Phát triển code,review code,tối ưu code,xử lý lỗi
+              </td>
+            </tr>
+            <tr>
+              <td>Công nghệ</td>
+              <td class="tdok">-Html,Css</td>
+            </tr>
+          </table>
+        </div>
+        <div class="duan2">
+          <img src="cvcanhan2.png" alt="cvcanhan2" />
+          <div>Cv cá nhân 2</div>
+          <div class="duan2-info">
+            <p class="year">2025</p>
+            <p><i class="icon-user-1"></i>Nguyễn Văn Bộ</p>
+
+            <p><i class="icon-lamp"></i>Deverloper</p>
+          </div>
+          <table style="width: auto">
+            <tr>
+              <td>Mô tả</td>
+              <td class="tdok">
+                -Trang Web cv cá nhân .Gồm các thông tin cá nhân cung như các kỹ
+                năng nghề nghiệp
+              </td>
+            </tr>
+            <tr>
+              <td>Nhiệm vụ</td>
+              <td class="tdok">
+                -Phát triển code,review code,tối ưu code,xử lý lỗi
+              </td>
+            </tr>
+            <tr>
+              <td>Công nghệ</td>
+              <td class="tdok">-Html,Css</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="lienhe">
+        <i class="icon-facebook">
+          <a href="https://www.facebook.com/profile.php?id=100007347460229"
+            >Facebook</a
+          ></i
+        >
+        <i class="icon-linkedin-circled"><a href="#">Linkedin</a></i>
+        <i class="icon-github-circled"><a href="#">Github</a></i>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

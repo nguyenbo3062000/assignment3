@@ -1,0 +1,94 @@
+@media screen and (max-width: 500px) {
+  .product-info {
+    position: relative;
+  }
+  .name {
+    position: absolute;
+    color: white;
+    padding-top: 100px;
+    padding-left: 150px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .nav-slogan {
+    display: none;
+  }
+
+  /*thông tin cá nhân */
+  .thongtin1 {
+    display: block;
+  }
+  .thongtincanhan {
+    padding-left: 10px;
+  }
+  .thongtincanhantitle {
+    margin-top: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  .btnsubmit {
+    background-color: #199cdb;
+    margin-bottom: 20px;
+  }
+
+  /*ẩn thông tin kinh nghiệm ngề nghiệp*/
+
+  .thongtin2 {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+  }
+
+  .read-more:hover .view-more {
+    visibility: visible;
+  }
+  .view-more {
+    visibility: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .hide {
+    display: none;
+  }
+  .title i {
+    margin-left: 20px;
+  }
+  /*bằng cấp chứng chỉ*/
+  .bangcap {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .japanese {
+    padding-left: 10px;
+  }
+  .japanese p {
+    float: left;
+    margin-top: 5px;
+  }
+  .mechanic {
+    border-top: solid 2px black;
+    border-left: hidden;
+    padding-top: 10px;
+  }
+  .mechanic p {
+    float: left;
+    margin-top: 5px;
+  }
+  /*  dự án  */
+  .project {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  /*footer*/
+  .lienhe i {
+    padding-left: 5px;
+  }
+}
